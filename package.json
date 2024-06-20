@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Prakash Sakari",
+  "author": "Mohammed Umar khan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
