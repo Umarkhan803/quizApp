@@ -8,4 +8,5 @@ categoriesRouter.route("/")
         res.json(quizzes)
     })
 
+
 module.exports = categoriesRouter;
