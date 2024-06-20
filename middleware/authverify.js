@@ -10,7 +10,6 @@ const authVerify = (req, res, next) => {
     }catch(err){
         console.error(`error from server ${JSON.stringify(err)}`)
     }
-
 }
 
 module.exports = authVerify;
