@@ -4,8 +4,6 @@ const { v4: uuid } = require("uuid");
 
 const userdata = require("../db/users");
 
-
-
 const signupHandler = (req, res) => {
     const { username, password } = req.body;
     //Duplicate user
