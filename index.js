@@ -14,7 +14,7 @@ app.use(express.json());
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("hello geeks");
+    res.send("hello umar khan");
 })
 
 app.use("/categories", categoriesRouter)
