@@ -9,7 +9,7 @@ const quizzes = require("./db/quizzes");
 
 const app = express(); //Creating a server
 app.use(cors());
-app.use(express.json());
+app.use(express.json()); 
 
 const PORT = 3000;
 
